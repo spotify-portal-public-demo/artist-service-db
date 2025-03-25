@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: artist-service-db
+  description: "Database for artist-service"
+  tags:
+    - nosql
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: spotify-portal-public-demo/artist-service-db
+spec:
+  type: database
+  lifecycle: experimental
+  owner: "group:default/content"
